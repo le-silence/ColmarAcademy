@@ -29,12 +29,15 @@ strong {
 }
 
 /* header */
-.logo {
+header {
   width: 100%;
-  margin: 0 auto;
   height: 4rem;
+  background-color: white;
   position: fixed;
   z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .imglogo {
@@ -49,13 +52,14 @@ strong {
 }
 
 .menubar li {
-  vertical-align: middle;
   display: inline;
   padding-right: 1rem;
 }
 
 .menubar li a {
   font-size: 1.5rem;
-  color: black;
   text-decoration: none;
+  color: black;
 }
+
+/* banner */
