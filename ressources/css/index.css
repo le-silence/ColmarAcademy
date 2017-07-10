@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -26,6 +26,41 @@ h6 {
 
 strong {
   font-weight: bold;
+}
+
+/* text under img */
+.verticalcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.verticalcontainer img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* text on the right of img */
+.horizontalcontainer {
+  width: 26.4375rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.horizontalcontainer .imgcontainer {
+  width: 35%;
+  margin: 1rem;
+}
+
+.horizontalcontainer img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.horizontalcontainer h6 {
+  padding: 0.5rem 0;
 }
 
 /* header */
@@ -62,4 +97,71 @@ header {
   color: black;
 }
 
+/* main */
+main {
+  position: relative;
+  top: 4rem;
+}
+
 /* banner */
+.banner {
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner .imgcontainer {
+  width: 60%;
+  margin: 2rem 2.5rem 2rem 1.5rem;
+}
+
+.banner .imgcontainer img {
+  width: 100%;
+}
+
+.banner .textcontainer {
+    width: 27%;
+}
+
+.banner .textcontainer h3 {
+  padding: 2rem 0;
+  line-height: 2rem;
+}
+
+.bannerbutton {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+/* section information */
+.information {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#leftcolumn .imgcontainer {
+  margin: 2rem 1.5rem;
+}
+
+#leftcolumn h2 {
+  padding-bottom: 1.5rem;
+}
+
+#leftcolumn .textcontainer {
+  margin: 0 1.5rem;
+}
+
+.rightcolumn {
+  padding-top: 1rem;
+}
+
+.horizontalcontainer a {
+  text-decoration: none;
+}
