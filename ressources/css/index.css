@@ -1,0 +1,61 @@
+html,
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* header */
+.logo {
+  width: 100%;
+  margin: 0 auto;
+  height: 4rem;
+  position: fixed;
+  z-index: 10;
+}
+
+.imglogo {
+  height: 3rem;
+  padding-left: 1.5rem;
+  vertical-align: middle;
+}
+
+.namelogo {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.menubar li {
+  vertical-align: middle;
+  display: inline;
+  padding-right: 1rem;
+}
+
+.menubar li a {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+}
