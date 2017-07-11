@@ -46,7 +46,8 @@ li a {
   align-items: baseline;
 }
 
-.verticalcontainer img {
+.verticalcontainer img,
+.verticalcontainer video {
   max-width: 100%;
   max-height: 100%;
 }
