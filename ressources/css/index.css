@@ -13,6 +13,7 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: bold;
+  padding-bottom: 1.5rem;
 }
 
 h3 {
@@ -57,6 +58,10 @@ strong {
 .horizontalcontainer img {
   width: 100%;
   max-height: 100%;
+}
+
+.horizontalcontainer .textcontainer {
+  width: 50%;
 }
 
 .horizontalcontainer h6 {
@@ -141,6 +146,7 @@ main {
 /* section information */
 .information {
   width: 100%;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -148,10 +154,6 @@ main {
 
 #leftcolumn .imgcontainer {
   margin: 2rem 1.5rem;
-}
-
-#leftcolumn h2 {
-  padding-bottom: 1.5rem;
 }
 
 #leftcolumn .textcontainer {
@@ -164,4 +166,61 @@ main {
 
 .horizontalcontainer a {
   text-decoration: none;
+}
+
+#third {
+  background-color: grey;
+}
+
+/* section learning */
+.learning {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: grey;
+}
+
+.firstline {
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.secondline {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.course {
+  max-width: 25%;
+  margin: 0 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.course .verticalcontainer {
+  height: 13.75rem;
+}
+
+.course .verticalcontainer .imgcontainer {
+  max-height: 10rem;
+}
+
+.course .textcontainer {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.course .verticalcontainer h6 {
+  padding: 0.5rem 0;
+}
+
+.coursecontent {
+  padding: 0.5rem 1rem;
+  height: 2.5rem;
+  line-height: 1.25rem;
 }
