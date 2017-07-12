@@ -29,7 +29,7 @@
 <!-- Banner -->
       <div class="banner" role="presentation">
         <div class="imgcontainer" role="presentation">
-          <img src="./ressources/images/banner.jpg" alt="reading students" />
+          <img src="./ressources/images/banner.jpg" alt="reading students" id="bannerimg"/>
         </div>
         <div class="textcontainer">
           <h1>Learn something new everyday</h1>
@@ -42,7 +42,7 @@
 <!-- Section information -->
         <section class="infoandthesis" role="presentation">
           <!-- section information left column -->
-          <div id="leftcolumn" class="verticalcontainer" role="presentation">
+          <div id="leftcolumn" class="verticalcontainer leftcolumn" role="presentation">
             <div class="imgcontainer" role="presentation">
               <img src="./ressources/images/information-main.jpg" alt="one guy reading outside" />
             </div>
@@ -122,7 +122,7 @@
               <h6 class="coursecontent">Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</h6>
             </div>
 
-            <div class="course">
+            <div class="course" id="learningdesktop">
               <div class="verticalcontainer" role="presentation">
                 <div class="imgcontainer" role="presentation">
                   <img src="./ressources/images/course-design.jpg" alt="professional camera picture" />
@@ -136,9 +136,38 @@
             </div>
           </div>
 
+          <!-- section learning medium line for screens 960 to 1140 -->
+          <div class="mediumline">
+            <div class="course">
+              <div class="verticalcontainer" role="presentation">
+                <div class="imgcontainer" role="presentation">
+                  <img src="./ressources/images/course-design.jpg" alt="professional camera picture" />
+                </div>
+                <div class="textcontainer">
+                  <h3>Design</h3>
+                  <h6>COURSE</h6>
+                </div>
+              </div>
+              <h6 class="coursecontent">User Experience Design, User research, Visual Design</h6>
+            </div>
+
+            <div class="course">
+              <div class="verticalcontainer" role="presentation">
+                <div class="imgcontainer" role="presentation">
+                  <img src="./ressources/images/course-data.jpg" alt="computer picture with analytics on the screen" />
+                </div>
+                <div class="textcontainer">
+                  <h3>Data</h3>
+                  <h6>COURSE</h6>
+                </div>
+              </div>
+              <h6 class="coursecontent">Data Science, Big Data, SQL, Data visualization</h6>
+            </div>
+          </div>
+
           <!-- section learning second line -->
           <div class="secondline">
-            <div class="course">
+            <div class="course" id="learningdesktop">
               <div class="verticalcontainer" role="presentation">
                 <div class="imgcontainer" role="presentation">
                   <img src="./ressources/images/course-data.jpg" alt="computer picture with analytics on the screen" />
@@ -179,13 +208,30 @@
           </div>
         </section>
 
+<!-- section learning for mobile -->
+        <section class="learningmobile" role="presentation">
+          <!-- section learning title -->
+          <h2>Start learning</h2>
+          <!-- vertical menu -->
+          <nav class="learningmobilemenu" role="menubar">
+            <ul role="presentation">
+              <li><a>Software engineering</a></li>
+              <li><a>Computer art</a></li>
+              <li><a>Design</a></li>
+              <li><a>Data</a></li>
+              <li><a>Business</a></li>
+              <li><a>Marketing</a></li>
+            </ul>
+          </nav>
+        </section>
+
 <!-- section thesis -->
         <div class="thesis">
           <!-- section thesis title -->
           <h2>Thesis Exhibit</h2>
           <section class="infoandthesis" role="presentation">
             <!-- section thesis left column -->
-            <div id="leftcolumn" class="verticalcontainer" role="presentation">
+            <div class="verticalcontainer leftcolumn" role="presentation">
               <div class="imgcontainer" role="presentation">
                 <video src="./ressources/videos/thesis.mp4" controls role="application">Video not found</video>
               </div>
